@@ -1,6 +1,6 @@
 {
   "name": "color-manager-redux",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Redux Client Module desigend to demonstrate BDD techniques with Redux.",
   "main": "index.js",
   "author": "Alex Banks (MoonTahoe)",

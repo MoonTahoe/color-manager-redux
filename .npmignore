@@ -5,3 +5,4 @@ src/
 .gitignore
 webpack.config.js
 yarn.lock
+travis.yml
