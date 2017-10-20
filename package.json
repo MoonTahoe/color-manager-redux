@@ -1,0 +1,36 @@
+{
+  "name": "color-manager-redux",
+  "version": "0.0.0",
+  "description": "A Redux Client Module desigend to demonstrate BDD techniques with Redux.",
+  "main": "index.js",
+  "author": "Alex Banks (MoonTahoe)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack -p",
+    "pretest": "yarn build",
+    "test": "jest; cucumber-js --format progress-bar --compiler js:babel-register",
+    "prebdd": "clear; webpack --progress",
+    "bdd": "cucumber-js --tags @current --compiler js:babel-register",
+    "tdd": "jest --watch -t=\"@current\""
+  },
+  "dependencies": {
+    "redux": "^3.7.2",
+    "redux-create-reducer": "^1.1.1",
+    "redux-thunk": "^2.2.0",
+    "sinon": "^4.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "cucumber": "^3.0.6",
+    "deep-freeze": "^0.0.1",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1"
+  }
+}
