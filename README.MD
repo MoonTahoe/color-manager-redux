@@ -1,7 +1,8 @@
 BDD Redux Client - The Color Manager
 ====================================
 This is a example of a redux client that was developed using BDD. This client allows
-users to add and remove colors from a list.
+users to add and remove colors from a list. This is an example that was described in a talk, and
+those [slides](https://github.com/MoonTahoe/color-manager-redux/blob/master/MH%20-%20BDD%20and%20Redux%20Talk.pdf) are avaialbe in this repo.
 
 Installation
 ------------
